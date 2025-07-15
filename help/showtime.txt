@@ -1,0 +1,15 @@
+------------------------------------------------------------------------------
+SHOWTIME COMMAND
+------------------------------------------------------------------------------
+    Syntax:
+      showtime
+
+    Description:
+      Displays the current system time in HH:MM:SS format.
+
+    Example:
+      TechOS> showtime
+      Current System Time: 14:05:09
+
+    Possible Error Messages:
+      (None)

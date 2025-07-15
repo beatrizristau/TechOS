@@ -1,0 +1,15 @@
+------------------------------------------------------------------------------
+SHOWDATE COMMAND
+------------------------------------------------------------------------------
+    Syntax:
+      showdate
+
+    Description:
+      Displays the current system date stored in TechOS in MM-DD-YYYY format.
+
+    Example:
+      TechOS> showdate
+      Current TechOS Date: 09-14-2021
+
+    Possible Error Messages:
+      (None)

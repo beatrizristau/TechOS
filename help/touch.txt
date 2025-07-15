@@ -1,0 +1,8 @@
+Command: touch
+
+Usage: touch <file_name>
+
+Description:
+The 'touch' command creates a new, empty file.
+
+If the file already exists, its timestamp will be updated. If it does not exist, an empty file with the specified name will be created. 

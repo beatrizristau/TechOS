@@ -1,0 +1,8 @@
+Command: showreadypcbs
+
+Usage: showreadypcbs
+
+Description:
+The 'showreadypcbs' command lists all Process Control Blocks (PCBs) that are currently in the ready queue.
+
+This provides a view of all processes that are ready to be dispatched for execution. 

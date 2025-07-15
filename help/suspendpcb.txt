@@ -1,0 +1,10 @@
+Command: suspendpcb
+
+Usage: suspendpcb <name>
+
+Description:
+The 'suspendpcb' command marks a Process Control Block (PCB) as suspended.
+
+A suspended PCB is not eligible for execution until it is resumed. This command sets the 'suspended' flag on the PCB, regardless of its current state (ready or blocked).
+
+The command will fail if no PCB with the specified name is found. 

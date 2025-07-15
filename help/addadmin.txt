@@ -1,0 +1,13 @@
+Command: addadmin
+
+Usage: addadmin <username>
+
+Description:
+The 'addadmin' command grants administrator privileges to an existing user. Only root users and other administrators are permitted to use this command.
+
+The command will fail if:
+- The user executing the command is not a root user or an administrator.
+- The specified user does not exist.
+- The specified user already has administrator privileges.
+
+Upon successful execution, the user's role will be elevated to 'admin'. 

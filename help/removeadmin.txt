@@ -1,0 +1,14 @@
+Command: removeadmin
+
+Usage: removeadmin <username>
+
+Description:
+The 'removeadmin' command revokes a user's administrator privileges, demoting them to a basic user. Only the root administrator is permitted to use this command.
+
+The command will fail if:
+- The user executing the command is not the root administrator.
+- The specified user does not exist.
+- The specified user is the root administrator.
+- The specified user does not have administrator privileges.
+
+Upon successful execution, the user's role will be changed to 'basic'. 

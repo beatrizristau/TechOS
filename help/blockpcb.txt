@@ -1,0 +1,10 @@
+Command: blockpcb
+
+Usage: blockpcb <name>
+
+Description:
+The 'blockpcb' command moves a Process Control Block (PCB) to the blocked queue.
+
+This action changes the PCB's state to 'blocked' but does not suspend it. If the PCB is already in the blocked state, the command will have no effect.
+
+The command will fail if no PCB with the specified name is found. 

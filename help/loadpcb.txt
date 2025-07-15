@@ -1,0 +1,9 @@
+Command: loadpcb
+
+Usage: loadpcb <name> <priority> <file_path>
+
+Description:
+The 'loadpcb' command loads processes from a file and creates a Process Control Block (PCB) for them.
+
+This command is used to simulate the loading of programs for execution. The file should contain the process details.
+The new PCB is placed in the ready queue with the specified priority. 

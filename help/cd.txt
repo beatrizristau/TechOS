@@ -1,0 +1,8 @@
+Command: cd
+
+Usage: cd [path]
+
+Description:
+The 'cd' command changes the current working directory.
+
+If no path is provided, it changes to the user's home directory. Both absolute and relative paths are supported. 

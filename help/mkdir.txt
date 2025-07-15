@@ -1,0 +1,8 @@
+Command: mkdir
+
+Usage: mkdir <folder_name>
+
+Description:
+The 'mkdir' command creates a new directory.
+
+The new directory is created in the current working directory. If the folder name contains spaces, it should be enclosed in quotes. 

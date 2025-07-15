@@ -1,0 +1,19 @@
+------------------------------------------------------------------------------
+VERSION COMMAND
+------------------------------------------------------------------------------
+    Syntax:
+      version
+
+    Description:
+      Displays the current version of TechOS, the authors, and the completion date.
+
+    Example:
+      TechOS> version
+
+    Output:
+      TechOS Version: 1.0
+      Authors: Coding Partner & User
+      Completion Date: Sep 14 2021
+
+    Possible Error Messages:
+      (None)

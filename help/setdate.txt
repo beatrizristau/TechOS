@@ -1,0 +1,17 @@
+------------------------------------------------------------------------------
+SETDATE COMMAND
+------------------------------------------------------------------------------
+    Syntax:
+      setdate MM-DD-YYYY
+
+    Description:
+      Sets the system date to the specified value. Validates format and logical date (including leap years).
+
+    Example:
+      TechOS> setdate 12-25-2021
+      TechOS date successfully changed to: 12-25-2021
+
+    Possible Error Messages:
+      Error: Missing date argument. Syntax: setdate MM-DD-YYYY
+      Error: Invalid date format. Please use MM-DD-YYYY.
+      Error: Invalid date value (e.g., day 31 is invalid for month 04 in year 2021).

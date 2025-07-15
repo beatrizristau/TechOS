@@ -1,0 +1,15 @@
+Command: removeuser
+
+Usage: removeuser <username>
+
+Description:
+The 'removeuser' command deletes a user account from the system. This command is restricted to administrators and the root user.
+
+The command will fail if:
+- The user executing the command is not an administrator or the root user.
+- The specified user does not exist.
+- An administrator attempts to delete another administrator's account.
+- A user attempts to delete their own account.
+- The user attempts to delete the root account.
+
+Upon successful execution, the specified user account will be permanently removed. 

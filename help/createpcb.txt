@@ -1,0 +1,13 @@
+Command: createpcb
+
+Usage: createpcb <name> <class> <priority>
+
+Description:
+The 'createpcb' command creates a new Process Control Block (PCB) and adds it to the ready queue.
+
+Parameters:
+- <name>: A unique identifier for the PCB.
+- <class>: The process class (e.g., Application or System).
+- <priority>: An integer value representing the priority of the process.
+
+The command will fail if a PCB with the same name already exists. Upon successful execution, the new PCB is placed in the ready state. 

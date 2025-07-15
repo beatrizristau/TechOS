@@ -1,0 +1,18 @@
+------------------------------------------------------------------------------
+EXIT COMMAND
+------------------------------------------------------------------------------
+    Syntax:
+      exit
+      quit
+
+    Description:
+      Terminates TechOS after asking for confirmation (yes/no).
+
+    Example:
+      TechOS> exit
+      Are you sure you want to exit TechOS? (yes/no): yes
+      Performing TechOS cleanup...
+      Shutting down TechOS. Goodbye!
+
+    Possible Error Messages:
+      Termination cancelled.

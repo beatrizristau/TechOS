@@ -1,0 +1,10 @@
+Command: deletepcb
+
+Usage: deletepcb <name>
+
+Description:
+The 'deletepcb' command removes a Process Control Block (PCB) from the system.
+
+The command will find the PCB by its name in any of the queues (ready, blocked, etc.) and permanently delete it.
+
+The command will fail if no PCB with the specified name is found. 

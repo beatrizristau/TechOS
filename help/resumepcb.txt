@@ -1,0 +1,10 @@
+Command: resumepcb
+
+Usage: resumepcb <name>
+
+Description:
+The 'resumepcb' command removes the suspended status from a Process Control Block (PCB).
+
+This action allows a suspended PCB to be considered for execution again. The command clears the 'suspended' flag, returning the PCB to its previous state queue (ready or blocked).
+
+The command will fail if no PCB with the specified name is found. 

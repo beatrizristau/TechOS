@@ -1,0 +1,14 @@
+Command: adduser
+
+Usage: adduser <username> <password> <role>
+
+Description:
+The 'adduser' command creates a new user account. This command is restricted to administrators and the root user.
+
+Details:
+- The 'role' must be either 'basic' or 'admin'.
+- Administrators are only permitted to create 'basic' users.
+- The root user can create both 'basic' users and 'admin' users.
+- The command will fail if the specified username already exists.
+
+Upon successful execution, a new user with the specified credentials and role will be added to the system. 

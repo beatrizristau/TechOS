@@ -1,0 +1,8 @@
+Command: dispatchpcbs
+
+Usage: dispatchpcbs
+
+Description:
+The 'dispatchpcbs' command simulates the process scheduler.
+
+It will execute processes from the ready queue based on the scheduling algorithm implemented in the dispatcher. 

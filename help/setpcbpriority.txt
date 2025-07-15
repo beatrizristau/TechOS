@@ -1,0 +1,10 @@
+Command: setpcbpriority
+
+Usage: setpcbpriority <name> <priority>
+
+Description:
+The 'setpcbpriority' command changes the priority of a Process Control Block (PCB).
+
+This command finds the specified PCB and updates its priority value. The PCB is then re-inserted into the appropriate queue to reflect its new priority.
+
+The command will fail if no PCB with the specified name is found. 

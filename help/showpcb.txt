@@ -1,0 +1,10 @@
+Command: showpcb
+
+Usage: showpcb <name>
+
+Description:
+The 'showpcb' command displays detailed information about a specific Process Control Block (PCB).
+
+The command searches for the PCB by its name and prints all its attributes, including its state, priority, and class.
+
+The command will fail if no PCB with the specified name is found. 

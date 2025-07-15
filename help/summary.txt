@@ -1,0 +1,43 @@
+------------------------------------------------------------------------------
+TechOS Help Summary
+------------------------------------------------------------------------------
+General Commands:
+    help [command]        - Display a summary of all commands or detailed help for a specific command.
+    version               - Show current version, authors, and completion date.
+    showdate              - Display the current system date.
+    setdate MM-DD-YYYY    - Change the system date to the specified value.
+    showtime              - Display the current system time.
+    clear                 - Clear the terminal screen.
+    exit, quit            - Terminate TechOS (with confirmation).
+
+User Management Commands:
+    adduser <user> <pass> <role> - Create a new user account.
+    removeuser <user>     - Remove a user account.
+    addadmin <user>       - Grant administrator privileges to a user.
+    removeadmin <user>    - Revoke administrator privileges from a user.
+    changepassword <user> - Change a user's password.
+
+PCB Management Commands:
+    createpcb <name> <class> <prio> - Create a new Process Control Block.
+    deletepcb <name>      - Remove a PCB from the system.
+    blockpcb <name>       - Move a PCB to the blocked queue.
+    unblockpcb <name>     - Move a PCB to the ready queue.
+    suspendpcb <name>     - Mark a PCB as suspended.
+    resumepcb <name>      - Resume a suspended PCB.
+    setpcbpriority <name> <prio> - Change the priority of a PCB.
+    showpcb <name>        - Display detailed information for a specific PCB.
+    showallpcbs           - List all PCBs in the system.
+    showreadypcbs         - List all PCBs in the ready queue.
+    showblockedpcbs       - List all PCBs in the blocked queue.
+
+Filesystem Commands:
+    ls [-l] [path]        - List directory contents.
+    cd [path]             - Change the current directory.
+    mkdir <folder>        - Create a new directory.
+    rmdir <folder>        - Remove an empty directory.
+    touch <file>          - Create a new, empty file.
+    rm <file>             - Remove a file.
+
+Scheduler Commands:
+    loadpcb <name> <prio> <file> - Load processes from a file into a PCB.
+    dispatchpcbs          - Simulate the process scheduler.

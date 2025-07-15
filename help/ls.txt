@@ -1,0 +1,11 @@
+Command: ls
+
+Usage: ls [-l] [path]
+
+Description:
+The 'ls' command lists the contents of a directory.
+
+Options:
+-l: Displays a long listing format, including file sizes.
+
+If no path is provided, the contents of the current directory are listed. 

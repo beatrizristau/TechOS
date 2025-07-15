@@ -1,0 +1,17 @@
+------------------------------------------------------------------------------
+HELP COMMAND
+------------------------------------------------------------------------------
+    Syntax:
+      help
+      help [command]
+
+    Description:
+      - Without arguments, displays a summary of all available commands and a brief description of each.
+      - With a command name as an argument, displays detailed help for that specific command, including syntax and examples.
+
+    Examples:
+      TechOS> help
+      TechOS> help showdate
+
+    Possible Error Messages:
+      No help available for command: <command>

@@ -1,0 +1,10 @@
+Command: unblockpcb
+
+Usage: unblockpcb <name>
+
+Description:
+The 'unblockpcb' command moves a Process Control Block (PCB) from the blocked queue to the ready queue.
+
+This action changes the PCB's state to 'ready'. The command only affects PCBs that are currently in the blocked state.
+
+The command will fail if no PCB with the specified name is found in the blocked queue. 

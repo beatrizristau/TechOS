@@ -1,0 +1,8 @@
+Command: showallpcbs
+
+Usage: showallpcbs
+
+Description:
+The 'showallpcbs' command lists all Process Control Blocks (PCBs) currently in the system.
+
+This command displays the PCBs from all queues, including ready, blocked, and suspended, providing a complete overview of all active processes. 
